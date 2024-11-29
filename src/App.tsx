@@ -9,7 +9,19 @@ function App() {
   return (
     <>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <div className="flex justify-center flex-col sm:flex-row items-center">
+      <div className="grid justify-self-center grid-cols-2 xs:grid-cols-3 sm:flex flex-col sm:flex-row items-center">
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
